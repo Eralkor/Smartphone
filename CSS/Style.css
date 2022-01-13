@@ -101,7 +101,7 @@ main section div h1{
 .iphonedark{
     position: absolute;
     left: 60%;
-    height: 60%;
+    height: 500px;
     bottom: 20%;
 }
 
@@ -109,6 +109,30 @@ main section div h1{
 ** Lien du main
 */
 
+.explore{
+    text-decoration: none;
+    color: rgba(233, 233, 233, 0.5);
+    background-color: #179de9;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: color 250ms;
+    transition: background-color 250ms;
+}
+
+.explore:hover{
+    color: white;
+    background-color: darkblue;
+    transition: color 250ms;
+    transition: background-color 250ms;
+}
+
+.doc{
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 6px;
+    border-style: solid;
+}
 
 /*
 ** Bas de page
@@ -120,13 +144,30 @@ footer{
     border-top: 2px solid white ;
     width: 70%;
     margin: 60px auto auto auto ;
+    align-items: center;
 }
 
 footer img{
-    width: 150px;
+    width: 50px;
 }
 
 footer nav ul{
     display: flex;
     flex-direction: row;
+    gap: 20px;
+}
+
+footer nav ul li{
+    list-style: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 250ms;
+}
+
+footer nav ul li a:hover{
+    color: grey;
+    transition: color 250ms;
 }
